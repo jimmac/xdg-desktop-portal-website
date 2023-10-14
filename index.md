@@ -22,7 +22,7 @@ and others.
 Documentation for the available D-Bus interfaces can be found	
 [here](https://flatpak.github.io/xdg-desktop-portal/portal-docs.html).
 
-## Version numbering
+## Version Numbering
 
 xdg-desktop-portal uses even minor vesion numbers for stable versions, and odd
 minor version numbers for unstable versions. During an unstable version cycle,
@@ -36,7 +36,7 @@ xdg-desktop-portal depends on GLib and Flatpak.
 To build the documentation, you will need xmlto and the docbook stylesheets.
 For more instructions, please read [CONTRIBUTING.md][contributing].
 
-## Using portals
+## Using Portals
 
 Flatpak grants sandboxed applications _talk_ access to names in the
 org.freedesktop.portal.\* prefix. One possible way to use the portal APIs
@@ -58,7 +58,7 @@ Here are some examples of available backends:
 - Deepin [xdg-desktop-portal-dde](https://github.com/linuxdeepin/xdg-desktop-portal-dde)
 - Xapp (Cinnamon, MATE, Xfce) [xdg-desktop-portal-xapp](https://github.com/linuxmint/xdg-desktop-portal-xapp)
 
-## Design considerations
+## Design Considerations
 
 There are several reasons for the frontend/backend separation of the portal
 code:
@@ -102,5 +102,7 @@ When it comes to processes, passing pids around is not useful in a sandboxed
 world where apps are likely in their own pid namespace. And passing pids from
 inside the sandbox is problematic, since the app can just lie.
 
+## Contributing
 
-[contributing]: https://github.com/flatpak/xdg-desktop-portal/blob/main/CONTRIBUTING.md
+XDG Desktop Portals is [Free Software](https://www.gnu.org/philosophy/free-sw.html). Contributions [welcome](https://github.com/flatpak/xdg-desktop-portal/blob/main/CONTRIBUTING.md).
+
