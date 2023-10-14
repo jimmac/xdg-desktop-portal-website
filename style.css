@@ -59,7 +59,7 @@
   --primary-color: var(--green5); /* Set your project color */
   --borders: var(--light3);
   --fg-color: #241f31;
-  --bg-color: #f6f5f4;
+  --bg-color: var(--light2);
   --term-fg: var(--dark3);
   --term-bg: var(--light1);
   --term-br: 9px;

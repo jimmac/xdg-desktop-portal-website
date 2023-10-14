@@ -1,12 +1,12 @@
 # Site settings
-title: Website Template
-baseurl: "/os-component-website" # the subpath of your site, e.g. /blog/
+title: XDG Desktop Portal
+baseurl: "/xdg-desktop-portal-website" # the subpath of your site, e.g. /blog/
                                  # usually empty. necessary for building absolute URIs
                                  # for metadata header
 url: "https://jimmac.github.io"   # the base hostname & protocol for your site
-sourceurl: "https://github.com/jimmac/os-component-website" # "edit this website" link in the footer
-description: "Description of the OS Component website."
-issuesurl: "https://github.com/jimmac/os-component-website/issues" # issue tracker for website
+sourceurl: "https://github.com/jimmac/xdg-desktop-portal-website" # "edit this website" link in the footer
+description: ""
+issuesurl: "https://github.com/jimmac/xdg-desktop-portal-website/issues" # issue tracker for website
 permalink: /:title/
 primary-color: "#26a269" #used in ios theme. further color customization in style.css  
 
