@@ -69,7 +69,7 @@
   :root {
     color-scheme: dark;
     --fg-color: #eee;
-    --bg-color: #29384c;
+    --bg-color: #0d2542;
     --term-fg: var(--light1);
     --term-bg: var(--dark4);
   }
