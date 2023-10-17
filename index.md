@@ -19,7 +19,11 @@ path (`/org/freedesktop/portal/desktop`).
 The portal interfaces include APIs for file access, opening URIs, printing
 and others.
 
-[![Documentation for the available D-Bus interfaces](assets/docs-button.png)](https://flatpak.github.io/xdg-desktop-portal/portal-docs.html){:.pixelbutton}
+
+<a href="https://flatpak.github.io/xdg-desktop-portal/portal-docs.html" class="pixelbutton"><picture alt="Documentation for the available D-Bus interfaces">
+    <source srcset="assets/docs-button-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="assets/docs-button.png">
+</picture></a>
 
 ## Version Numbering
 
