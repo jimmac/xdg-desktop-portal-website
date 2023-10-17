@@ -44,7 +44,7 @@ For more instructions, please read [CONTRIBUTING.md][contributing].
 Flatpak grants sandboxed applications _talk_ access to names in the
 org.freedesktop.portal.\* prefix. One possible way to use the portal APIs
 is thus just to make D-Bus calls. For many of the portals, toolkits (e.g.
-GTK+) are expected to support portals transparently if you use suitable
+GTK) are expected to support portals transparently if you use suitable
 high-level APIs.
 
 To implement most portals, xdg-desktop-portal relies on a backend
@@ -66,7 +66,7 @@ Here are some examples of available backends:
 There are several reasons for the frontend/backend separation of the portal
 code:
 - We want to have _native_ portal dialogs that match the session desktop (i.e.
-  GTK+ dialogs for GNOME, Qt dialogs for KDE)
+  GTK dialogs for GNOME, Qt dialogs for KDE)
 - One of the limitations of the D-Bus proxying in flatpak is that allowing a
   sandboxed app to talk to a name implicitly also allows it to talk to any other
   name owned by the same unique name. Therefore, sandbox-facing D-Bus apis
